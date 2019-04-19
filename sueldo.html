@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sueldo</title>
+</head>
+<body>
+<script>
+let sueldo,total,categoria,porcentaje;
+sueldo=parseInt(prompt("ingrese el sueldo"));
+categoria=parseInt(prompt("ingrese la categoria del 1 al 4"));
+if (categoria == 1){
+    porcentaje=sueldo*0.15;
+    total=porcentaje+sueldo;
+    alert(`categoria ${categoria}`);
+    alert(`sueldo anterior ${sueldo}`);
+    alert(`nuevo sueldo ${total}`);
+}
+
+else if (categoria == 2){
+    porcentaje=sueldo*0.10;
+    total=porcentaje+sueldo;
+    alert(`categoria ${categoria}`);
+    alert(`sueldo anterior ${sueldo}`);
+    alert(`nuevo sueldo ${total}`);
+}
+
+else if (categoria ==3){
+    porcentaje=sueldo*0.08;
+    total=porcentaje+sueldo;
+    alert(`categoria ${categoria}`);
+    alert(`sueldo anterior ${sueldo}`);
+    alert(`nuevo sueldo ${total}`);
+}
+
+else if (categoria == 4){
+    porcentaje=sueldo*0.07;
+    total=porcentaje+sueldo;
+    alert(`categoria ${categoria}`);
+    alert(`sueldo anterior ${sueldo}`);
+    alert(`nuevo sueldo ${total}`);
+}
+</script>
+</body>
+</body>
+</html>
